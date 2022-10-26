@@ -1,0 +1,26 @@
+.watch-list{
+  margin-top: 80px;
+  text-align: center;
+}
+.watchlist-title{
+  display: inline-block;
+  margin-top: 20px;
+  color: red;
+}
+.movies-count{
+  margin-left: 14px;
+  font-size: 19px;
+  color: white;
+}
+.movie-grid{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.no-movies{
+  color: red;
+  margin-top: 5px;
+}

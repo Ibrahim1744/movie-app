@@ -1,0 +1,18 @@
+.watched{
+  margin-top: 80px;
+  text-align: center;
+
+}
+.watched-title{
+  display: inline-block;
+  color: red;
+  margin: 20px 0;
+}
+.movie-grid{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}

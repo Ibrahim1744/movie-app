@@ -1,0 +1,41 @@
+.slider{
+  width: 100%;
+  overflow: hidden;
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  position: relative;
+
+}
+.slider-img{
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.slide{
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+.slide.active{
+  opacity: 1;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  font-size: 70px;
+  cursor: pointer;
+  z-index: 5;
+  color: white;
+}
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+  font-size: 70px;
+  cursor: pointer;
+  z-index: 5;
+  color: white;
+}
